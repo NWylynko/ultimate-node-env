@@ -23,6 +23,14 @@ using docker dev environment and some other tricks we can create a reproducible 
     - A delightful, open source, community-driven framework for managing your Zsh configuration.
   - [Powerline10k](https://github.com/romkatv/powerlevel10k)
     - A theme for Zsh. It emphasizes speed, flexibility and out-of-the-box experience.
+      <details>
+        <summary>Install MesloLGS NF font if you havent already</summary>
+
+        - [MesloLGS NF Regular.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf)
+        - [MesloLGS NF Bold.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf)
+        - [MesloLGS NF Italic.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Italic.ttf)
+        - [MesloLGS NF Bold Italic.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf)
+      </details>
 - [Docker](https://www.docker.com/)
   - Helps developers and development teams build and ship apps.
   - [Dev environment](https://code.visualstudio.com/docs/remote/containers)
