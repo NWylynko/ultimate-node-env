@@ -1,5 +1,5 @@
-# ultimate-node-env
-using docker dev environment and some other tricks we can create a reproducible dev environment with all the tools for a modern node.js service
+# Ultimate node env
+Using docker dev environment and some other tricks we can create a reproducible dev environment with all the tools for a modern node.js service
 
 - [LTS NodeJS (12)](https://nodejs.org/)
   - A JavaScript runtime built on Chrome's V8 JavaScript engine.
@@ -9,16 +9,16 @@ using docker dev environment and some other tricks we can create a reproducible 
     - Provides source map support for stack traces
 - [ts-node](https://github.com/TypeStrong/ts-node) with [nodemon](https://nodemon.io/)
   - TypeScript execution and REPL for node.js, with source map support.
-  - Monitor for any changes in your source and automatically restart
+  - Monitor for any changes in your source and automatically restart.
 - [Jest](https://jestjs.io/)
   - A delightful JavaScript Testing Framework with a focus on simplicity.
 - [ESLint](https://eslint.org/)
-  - Find and fix problems in your Javascript (or Typescript) code
+  - Find and fix problems in your Javascript (or Typescript) code.
 - [Yarn](https://yarnpkg.com/) or [NPM](http://npmjs.com/)
 
 - Intergrated Terminal
   - [ZSH](https://www.zsh.org/)
-    - A shell designed for interactive use
+    - A shell designed for interactive use.
   - [oh-my-zsh](https://ohmyz.sh/)
     - A delightful, open source, community-driven framework for managing your Zsh configuration.
   - [Powerline10k](https://github.com/romkatv/powerlevel10k)
@@ -36,6 +36,16 @@ using docker dev environment and some other tricks we can create a reproducible 
   - [Dev environment](https://code.visualstudio.com/docs/remote/containers)
   - build container
 - [Github actions](https://github.com/features/actions)
-  - Makes it easy to automate all your software workflows
+  - Makes it easy to automate all your software workflows.
   - run tests
   - publish container
+  
+- VSCode extensions included
+  - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+    - Integrates ESLint into VS Code.
+  - [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
+    - Autocompletes npm modules in import statements.
+  - [node-readme](https://marketplace.visualstudio.com/items?itemName=bengreenier.vscode-node-readme)
+    - Quickly view javascript module documentation.
+  - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+    - A basic spell checker that works well with camelCase code.
